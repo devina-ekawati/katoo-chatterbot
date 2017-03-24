@@ -1,0 +1,24 @@
+{
+    "conversations": [
+        [
+            "Saya mau makan di jakarta barat",
+            "Ini adalah list restoran di %1%"
+        ],
+        [
+            "mau liat menu restoran McDonalds dong",
+            "ini menunya"
+        ],
+        [
+            "Laper nih",
+            "kamu mau makan di mana?"
+        ],
+        [
+            "mau makan nih",
+            "kamu mau makan di mana?"
+        ],
+        [
+            "mau liat menu restorannya dong",
+            "menu restoran apa ya?"
+        ]
+    ]
+}
