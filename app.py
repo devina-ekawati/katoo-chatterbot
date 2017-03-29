@@ -4,11 +4,10 @@ from similarity_finder import SimilarityFinder
 import os
 
 app = Flask(__name__)
+mydir = os.path.dirname(__file__)
+
 cb = ChatterBot()
 sf = SimilarityFinder()
-
-mydir = os.path.dirname(__file__)
-file = os.path.join(mydir, 'movies_list.txt')
 
 @app.route('/get-reply', methods=['POST'])
 def get_reply():
@@ -22,6 +21,7 @@ def get_reply():
 def get_title():
 	json = request.json
 	message = json["message"]
+	file = os.path.join(mydir, 'movies_list.txt')
 	titles = sf.getTitleFromTitleList(file)
 	title = sf.findMostSimilarTitle(message, titles)
 	result = {'title': str(title)}
