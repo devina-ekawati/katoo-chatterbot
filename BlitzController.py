@@ -1,6 +1,7 @@
 from lxml import html
 import requests
 import urllib2
+import datetime
 
 url = "https://www.cgv.id/en/movies/get_movie_json"
 
@@ -69,23 +70,16 @@ def getMovies():
 		movie["showtime"] = showtimes
 		prices = tree.xpath('//ul[@class="showtime-lists"]/li/a/@price')
 		movie["price"] = prices
-		
-		# cinemainfos = {}
-		# counter = 0
-		# for cinema in cinemas:
-		# 	time = showtimes[counter]
-		# 	if showtimes[counter] < time:
-		# 		time = showtimes[counter]
-		# 		movieDetails[cinema] = cinemainfos
-		# 		cinemainfos = {}
-		# 	else:
-		# 		cinemainfos["showtime"].append(showtimes[counter])
-		# 		cinemainfos["price"].append(prices[counter])
-		# 		counter++
 
 		movieDetails[movietitle] = movie
 
 	return movieDetails
 
+def getMovieDetails(movieTitle, movies):
+	movieTitle = movieTitle.upper()
+	return movies[movieTitle]
+
+
 # getNowShowingMovies()
-print getMovies()
+movies = getMovies()
+print getMovieDetails("BARACAS",movies)
