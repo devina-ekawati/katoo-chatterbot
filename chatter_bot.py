@@ -33,4 +33,6 @@ class ChatterBot:
 
 if __name__ == '__main__':
 	cb = ChatterBot()
-	print cb.get_reply("apa kabar?")
+	while (True):
+		response = raw_input("Message: ")
+		print chatterbot.get_response(response)

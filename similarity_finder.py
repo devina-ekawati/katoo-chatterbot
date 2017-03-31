@@ -28,14 +28,14 @@ class SimilarityFinder:
 
 		if found == 0:
 			for i, title in enumerate(titles):
-				if maximum < similar(str, title):
-					maximum = similar(str, title)
+				if maximum < self.similar(str, title):
+					maximum = self.similar(str, title)
 					max_idx = i
 
 				if title.find(":") != -1:
 					firstWord = title.split(":")[0]
-					if maximum < similar(str, firstWord):
-						maximum = similar(str, firstWord)
+					if maximum < self.similar(str, firstWord):
+						maximum = self.similar(str, firstWord)
 						max_idx = i
 			if maximum > 0.4:
 				res = titles[max_idx]

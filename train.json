@@ -1,24 +1,261 @@
 {
-    "conversations": [
-        [
-            "Saya mau makan di jakarta barat",
-            "Ini adalah list restoran di %1%"
-        ],
-        [
-            "mau liat menu restoran McDonalds dong",
-            "ini menunya"
-        ],
-        [
-            "Laper nih",
-            "kamu mau makan di mana?"
-        ],
-        [
-            "mau makan nih",
-            "kamu mau makan di mana?"
-        ],
-        [
-            "mau liat menu restorannya dong",
-            "menu restoran apa ya?"
-        ]
-    ]
+   "conversations":[
+      [
+         "laper nih",
+         "kamu mau makan di mana?",
+         "mau makan di %1%",
+         "~10~ ini list tempat makan di %1%",
+         "%2% alamatnya di mana?",
+         "~5~ alamatnya disini",
+         "mau liat menunya dong",
+         "~7~ silakan lihat di sini",
+         "mau liat reviewnya dong",
+         "~8~ ini 5 reviewnya",
+         "ratingnya berapa?",
+         "~6~ ratingnya"
+      ],
+      [
+         "pengen makan nih. enaknya dimana ya?",
+         "kamu bisa mengetikkan nama daerah atau share lokasi kamu melalui tombol location yang ada di aplikasi LINE.",
+         "aku lagi di %1%",
+         "~9~ ini list tempat makan di %1%",
+         "%2% tempatnya di mana?",
+         "~5~ alamatnya disini",
+         "liat menunya dong",
+         "~7~ silakan lihat di sini",
+         "%2% bagus ga?",
+         "~8~ ini 5 reviewnya",
+         "ratingnya berapa ya?"
+      ],
+      [
+         "tempat makan bagus dimana ya?",
+         "kamu bisa mengetikkan nama daerah atau share lokasi kamu melalui tombol location yang ada di aplikasi LINE.",
+         "lagi di %1%",
+         "~9~ ini list tempat makan di dekatmu",
+         "minta detail %2% dong?",
+         "~5~ ini detailnya"
+      ],
+      [
+         "gw lapar nih?",
+         "kamu mau makan dimana?",
+         "mau makan ayam di %2%",
+         "kamu bisa mengetikkan nama daerah atau share lokasi kamu melalui tombol location yang ada di aplikasi LINE.",
+         "aku lagi di %1%",
+         "~9~ makan di sini aja",
+         "makasih katoo",
+         "sama-sama.. :)"
+      ],
+      [
+         "gue mau makan. Enaknya apa ya?",
+         "kamu mau makan dimana?",
+         "bingung juga",
+         "Kamu bisa mengetikkan nama daerah atau share lokasi kamu melalui tombol location yang ada di aplikasi LINE.",
+         "lagi di %1%",
+         "~9~ makan di sini aja",
+         "wah %2% menarik ya. Minta reviewnya dong…",
+         "~8~ ini 5 reviewnya",
+         "ada menunya ga?",
+         "~7~ silakan lihat di sini",
+         "wah terima kasih katoo",
+         "sama-sama, selamat menikmati makanannya :D"
+      ],
+      [
+         "lapar",
+         "kamu mau makan dimana?",
+         "ga ngerti dimana. enaknya?",
+         "Kamu bisa mengetikkan nama daerah atau share lokasi kamu melalui tombol location yang ada di aplikasi LINE.",
+         "aku lagi di %1%",
+         "~9~ makan di sini aja",
+         "wah kayanya makanan di %2% enak ya",
+         "~8~ ini 5 reviewnya",
+         "menu spesialnya apa ya?",
+         "~7~ silakan lihat di sini",
+         "yah, ga ada menu A ya. Rekomendasi restoran lain dong.",
+         "~9~ makan di sini aja",
+         "ga ada yang menarik nih. Kalo restoran dekat %1% ada?",
+         "~10~ ini list tempat makan di %1%",
+         "%2% bisa pesan antar ga?",
+         "maaf aku ga tau. :( coba cari di websitenya."
+      ],
+      [
+         "tahu restoran korea dekat sini ga?",
+         "Kamu bisa mengetikkan nama daerah atau share lokasi kamu melalui tombol location yang ada di aplikasi LINE.",
+         "di %1%",
+         "~9~ makan di sini aja",
+         "itu ga ada restoran korea. :(",
+         "maaf aku ga tau. :(",
+         "yah kecewa",
+         "maaf"
+      ],
+      [
+         "hujan-hujan gini enaknya makan dimana ya?",
+         "Kamu bisa mengetikkan nama daerah atau share lokasi kamu melalui tombol location yang ada di aplikasi LINE.",
+         "di %1%",
+         "~9~ makan di sini aja",
+         "hmm..nya cocok kayaknya. Boleh minta info %2% ga?",
+         "~5~ ini detailnya",
+         "ada menunya ga?",
+         "~7~ silakan lihat di sini",
+         "oh makasih.",
+         "selamat menikmati :)"
+      ],
+      [
+         "panas banget. Pengen makan es krim.",
+         "kamu mau makan dimana?",
+         "di %1%",
+         "~10~ ini list tempat makan di %1%",
+         "ga ada yang lain ya?",
+         "ga ada nih",
+         "yah.. Kalau di cibadak ada?",
+         "~10~ ini list tempat makan di cibadak",
+         "wahnya menu favorit %2% apa ya?",
+         "~7~ silakan lihat di sini",
+         "ada promo menarik ga?",
+         "maaf aku ga tahu :("
+      ],
+      [
+         "pengen makan makanan yang pedes",
+         "kamu mau makan dimana?",
+         "kalo bisa di %1%",
+         "~10~ ini list tempat makan di %1%",
+         "makanan A pedas ga?",
+         "maaf aku ga tau :( dicoba aja.",
+         "baiklah",
+         "selamat menikmati"
+      ],
+      [
+         "gue mau hang out nih. Cafe yang bagus apa ya?",
+         "Kamu bisa mengetikkan nama daerah atau share lokasi kamu melalui tombol location yang ada di aplikasi LINE.",
+         "ini lokasiku",
+         "oke bentar cari dulu",
+         "di %1%",
+         "~9~ makan di sini aja",
+         "makanan %2% enak ga?",
+         "~8~ ini 5 reviewnya",
+         "ooo",
+         "",
+         "minta daftar makanannya dong.",
+         "~7~ silakan lihat di sini"
+      ],
+      [
+         "w pengen mkn",
+         "kamu mau makan dimana?",
+         "bingung w",
+         "Kamu bisa mengetikkan nama daerah atau share lokasi kamu melalui tombol location yang ada di aplikasi LINE.",
+         "di %1%",
+         "~9~ makan di sini aja",
+         "%2% enak ga?",
+         "~8~ ini 5 reviewnya",
+         "kalo %2%?",
+         "ini 5 reviewnya",
+         "kayaknya w mkn di %2% aja",
+         "selamat menikmati :D"
+      ],
+      [
+         "restoran di %1% yang enak apa ya?",
+         "~10~ ini list tempat makan di %1%",
+         "infonya dong.",
+         "~5~ ini detailnya",
+         "trims",
+         "selamat menikmati :D"
+      ],
+      [
+         "makan yuk",
+         "kamu mau makan dimana?",
+         "%2% kata tanteku enak ya. Kamu bisa kasih aku infonya ga?",
+         "~5~ ini detailnya",
+         "wah, menu spesialnya apa ya?",
+         "~7~ silakan lihat di sini",
+         "alamatnya dimana?",
+         "~5~ alamatnya disini",
+         "ooo, makasih ya infonya",
+         "sama-sama :D"
+      ],
+      [
+         "siang-siang gini mending makan apa ya?",
+         "kamu mau makan dimana?",
+         "ada rekomendasi ga?",
+         "Kamu bisa mengetikkan nama daerah atau share lokasi kamu melalui tombol location yang ada di aplikasi LINE.",
+         "di %1%",
+         "~9~ makan di sini aja",
+         "%2% ada di mana ya?",
+         "~5~ alamatnya disini",
+         "ooo, jam segini rame ga ya biasanya?",
+         "maaf aku ga tau. :( Coba kesana aja ya :D",
+         "oke deh",
+         "selamat menikmati :D"
+      ],
+      [
+         "mau makanan yang murah dan enak dimana ya?",
+         "Kamu bisa mengetikkan nama daerah atau share lokasi kamu melalui tombol location yang ada di aplikasi LINE.",
+         "di %1%",
+         "~9~ makan di sini aja",
+         "%2% ada menu apa aja?",
+         "~7~ silakan lihat di sini",
+         "bukanya jam berapa ya?",
+         "~5~ ini detailnya",
+         "terima kasih",
+         "selamat menikmati :D"
+      ],
+      [
+         "aku besok mau ke %1% terus pengen makanan yang enak, ada saran?",
+         "~10~ ini list tempat makan di %1%",
+         "%2% makanan yang enaknya apa ya?",
+         "~7~ silakan lihat di sini",
+         "malamnya tutup jam berapa ya?",
+         "~5~ ini detailnya",
+         "terima kasih",
+         "selamat menikmati :D"
+      ],
+      [
+         "pengen coba makan bakso di %1%.",
+         "~10~ ini list tempat makan di %1%",
+         "%2% ada bakso ga?",
+         "~7~ silakan lihat di sini",
+         "ga ada ya. Tau restoran lain yang ada jual bakso di %1% ga?",
+         "~10~ coba lihat tempat makan lain di %1%",
+         "oke deh",
+         "selamat menikmati :D"
+      ],
+      [
+         "mau makan bareng keluarga di deket %1%.",
+         "~10~ ini list tempat makan di %1%",
+         "bagusnya makan apa ya kalo dinya?",
+         "~7~ silakan lihat di sini",
+         "bisa reserve gitu ga ya?",
+         "maaf aku ga tau :( coba cek websitenya aja ya."
+      ],
+      [
+         "%3% ceritanya tentang apa?",
+         "~3~ ini sinopsisnya",
+         "%3% berapa lama durasinya?",
+         "~3~ ",
+         "mau liat review dari %3% dong",
+         "~4~ ini 5 reviewnya",
+         "rating dari %3% berapa?",
+         "~3~ ratingnya"
+      ],
+      [
+         "review %3% gimana?",
+         "~4~ ini 5 reviewnya",
+         "kalo %3%? Cerita tentang apa?",
+         "~3~ ini sinopsisnya"
+      ],
+      [
+         "ada rekomendasi film ga?",
+         "~1~ gimana kalau %3%?",
+         "Ceritanya ttg apa?",
+         "~3~ ini sinopsisnya",
+         "ga suka genre horor si",
+         "~3~ kalau %3%? ini sinopsisnya"
+      ],
+      [
+         "%3% tentang apa?",
+         "~3~ ini sinopsisnya",
+         "ratingnya berapa ya?",
+         "~3~ ratingnya",
+         "boleh lihat reviewnya ga?",
+         "~5~ ini 5 reviewnya"
+      ]
+   ]
 }
