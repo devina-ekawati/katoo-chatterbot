@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import os
 from chatterbot.trainers import ChatterBotCorpusTrainer
 from chatterbot import ChatBot
@@ -21,10 +24,7 @@ class ChatterBot:
 	    ],)
 		self.chatterbot.set_trainer(ChatterBotCorpusTrainer)
 
-		self.chatterbot.train(
-		   "chatterbot.corpus.indonesia",
-		   train_file
-		)
+		self.chatterbot.train("chatterbot.corpus.indonesia")
 
 	def get_reply(self, message):
 		response = self.chatterbot.get_response(message)

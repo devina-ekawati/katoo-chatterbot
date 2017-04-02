@@ -85,6 +85,38 @@
       [
          "film yang lagi tayang apa ya?",
          "now playing movie"
+      ],
+      [
+         "bioskop A lagi tayang film apa aja?",
+         "maaf aku ga tahu :("
+      ],
+      [
+         "kamu sudah makan?",
+         "uda dong"
+      ],
+      [
+         "mau makan dimana ya?",
+         "Kamu bisa mengetikkan nama daerah atau share lokasi kamu melalui tombol location yang ada di aplikasi LINE."
+      ],
+      [
+         "nonton bareng yuk",
+         "yuk :)"
+      ],
+      [
+         "nyam nyam nyam",
+         "enak ya"
+      ],
+      [
+         "pengen nonton film horor",
+         "film apa?"
+      ],
+      [
+         "mau makan cimpi",
+         "Kamu bisa mengetikkan nama daerah atau share lokasi kamu melalui tombol location yang ada di aplikasi LINE."
+      ],
+      [
+         "tempat makan paling gaul di Bandung apa ya?",
+         "McDonald"
       ]
    ]
 }

@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 from flask import Flask, request, jsonify
 from chatter_bot import ChatterBot
 from similarity_finder import SimilarityFinder
