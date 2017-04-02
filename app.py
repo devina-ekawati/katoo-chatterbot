@@ -30,8 +30,7 @@ def get_reply():
 		restaurant_name = rf.get_restaurant_name(message, location)
 
 		if not restaurant_name:
-			# reply = {"code": 3, "name": cb.get_reply(message)}
-			reply = {"code": 3, "name": "chatterbot"}
+			reply = {"code": 3, "name": cb.get_reply(message)}
 		else:
 			reply = {"code": 1, "name": restaurant_name, "location": location}	
 	else:
